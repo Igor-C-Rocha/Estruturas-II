@@ -29,7 +29,7 @@ for(int n = NMin; n <= NMax; n++){
     clock_t end = clock();
     double tempo = (double)(end - start) / CLOCKS_PER_SEC;
         fprintf(fp, "%d %.6f\n", n, tempo);
-        printf("n = %d, x(n) = %lld, tempo = %.6f segundos\n", n, resultado, tempo);
+        printf("n = %d, x(n) = %I64d, tempo = %.6f segundos\n", n, resultado, tempo);
     }
     fclose(fp);
 return 0;
