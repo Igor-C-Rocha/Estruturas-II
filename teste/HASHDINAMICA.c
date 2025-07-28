@@ -155,7 +155,7 @@ int main(){
     atribuir(tabela, "chave2", 20);
     atribuir(tabela, "chave3", 30);
     atribuir(tabela, "chave4", 40); // Deve causar resize
-    atribuir(tabela, "chave5", 50);
+    atribuir(tabela, "chave5", 40);
 
     printf("\nApos o reajuste:\n");
     imprimir_tabela(tabela);  // Imprimir a tabela após o reajuste
